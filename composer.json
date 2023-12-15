@@ -1,0 +1,37 @@
+{
+    "name": "algsupport/yii2-bootstrap-icons",
+    "description": "Yii2 bootstrap5 icons",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Albert Gukasian",
+            "email": "admin@algsupport.com"
+        }
+    ],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=8.2.0",
+		"algsupport/yii2": "*",
+        "bower-asset/bootstrap": "^5.1.0",
+		"twbs/bootstrap-icons": "^1.11"
+	},
+
+    "autoload": {
+        "psr-4": {
+            "algsupport\\BootstrapIcons\\": "src/"
+        }
+    },
+	"config": {
+		"allow-plugins": {
+			"yiisoft/yii2-composer": true
+		},
+		"process-timeout": 1800
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+}
